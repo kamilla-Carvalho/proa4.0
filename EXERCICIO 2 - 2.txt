@@ -1,0 +1,21 @@
+Algoritmo "Exercicio 2"
+
+Var
+valor: inteiro
+
+Inicio
+valor<- 1
+repita
+escreval("valor da temperatura: ")
+leia(valor)
+valor<- valor
+ate valor>=25
+escreval("esta muito quente")
+repita
+escreval("valor da temperatura: ")
+leia(valor)
+valor<- valor
+ate valor<25
+escreval("esta agradavel")
+
+Fimalgoritmo

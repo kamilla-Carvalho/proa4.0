@@ -1,0 +1,12 @@
+Algoritmo "Exercicio 7"
+
+Var
+cont: real
+
+Inicio
+cont<- 1
+enquanto cont< 21 faca
+escreval ("1/",cont)
+cont<- cont + 1
+fimenquanto
+Fimalgoritmo

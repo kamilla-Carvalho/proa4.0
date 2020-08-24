@@ -1,0 +1,17 @@
+Algoritmo "Exercicio 5"
+
+Var
+numero:vetor [0..100] de inteiro
+contador: inteiro
+
+Inicio
+enquanto numero[contador] <100 faca
+escreva(" digite um numero: ")
+leia(numero[contador])
+se (numero[contador]mod 2 = 0) entao
+escreval(" par ")
+senao(" ")
+fimse
+fimenquanto
+Fimalgoritmo
+

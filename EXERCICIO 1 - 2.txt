@@ -1,0 +1,17 @@
+Algoritmo "EXERCICIO 1"
+
+Var
+num1, resultado: inteiro
+Inicio
+num1<-0
+escreval(" o primeiro numero: ")
+leia(num1)
+enquanto num1 < 27 faca
+se num1 mod 2 <> 0 entao
+escreval(" numero par: ", num1)
+senao
+escreval("numero impar: ", num1)
+fimse
+num1 <- num1 + 1
+fimenquanto
+Fimalgoritmo

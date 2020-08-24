@@ -1,0 +1,22 @@
+Algoritmo "Exercicio 3"
+
+Var
+nome1,altura1,nome2, altura2, mais_alto: caractere
+
+Inicio
+escreva("nome1: ")
+leia(nome1)
+escreva ("altura1: ")
+leia(altura1)
+escreva("nome2: ")
+leia(nome2)
+escreva ("altura2: ")
+leia(altura2)
+
+             se(altura1>altura2)entao
+mais_alto<-nome1+" "+altura1
+             senao se(altura2>altura1)entao
+mais_alto<-nome2+" "+altura2
+fimse
+escreva("o mais alto é: ", mais_alto)
+Fimalgoritmo

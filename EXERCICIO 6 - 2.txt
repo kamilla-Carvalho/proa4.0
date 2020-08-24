@@ -1,0 +1,32 @@
+Algoritmo "Exercicio 6"
+
+Var
+nota1: inteiro
+nota2: inteiro
+nota3: inteiro
+nota4: inteiro
+falta: inteiro
+media: real
+
+Inicio
+escreval("Digita sua nota: ")
+leia(nota1)
+escreval("Digita sua nota: ")
+leia(nota2)
+escreval("Digita sua nota: ")
+leia(nota3)
+escreval("Digita sua nota: ")
+leia(nota4)
+escreval("Total de faltas: ")
+leia(falta)
+media<- (nota1+nota2+nota3+nota4)/4
+se(falta >10)entao
+escreva("Reprovado", " ")
+fimse
+se (media<7) e (>5) entao
+escreva("recuperação")
+fimse
+se media< 5 entao
+escreva("reprovado")
+fimse
+Fimalgoritmo
